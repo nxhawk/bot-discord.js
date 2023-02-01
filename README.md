@@ -36,11 +36,11 @@ Bài viết này sẽ nêu các chức năng cũng như cách cài đặt và s�
 
 ***
 
-## Free Lavalink host
+## Free Lavalink hosting
  
  ![image](https://user-images.githubusercontent.com/92797788/216119064-b760b017-c34a-4fb9-823f-68dde762b0be.png)
 
-  You can [see more](https://lavalink.darrennathanael.com/SSL/lavalink-with-ssl/) lavalink host.
+  You can [see more](https://lavalink.darrennathanael.com/SSL/lavalink-with-ssl/) lavalink hosting.
   
 ## Bot's execution commands
 
