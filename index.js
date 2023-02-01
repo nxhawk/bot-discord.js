@@ -46,44 +46,6 @@ for (const file of commandFiles) {
 const rest = new REST({ version: "10" }).setToken(TOKEN);
 
 (async () => {
-  // const commands = [
-  //   {
-  //     name: "ping",
-  //     description: "Replies with Pong!",
-  //   },
-  //   {
-  //     name: "hi",
-  //     description: "Replies with Hello guy!",
-  //   },
-  //   {
-  //     name: "order",
-  //     description: "Order something...",
-  //     options: [
-  //       {
-  //         name: "food",
-  //         description: "food is very very...",
-  //         type: 3,
-  //         required: true,
-  //       },
-  //       {
-  //         name: "drink",
-  //         description: "drink is very very...",
-  //         type: 3,
-  //         required: true,
-  //         choices: [
-  //           {
-  //             name: "Coca",
-  //             value: "coca",
-  //           },
-  //           {
-  //             name: "Pepsi",
-  //             value: "pepsi",
-  //           },
-  //         ],
-  //       },
-  //     ],
-  //   },
-  // ];
   try {
     console.log(
       `Started refreshing ${commands.length} application (/) commands`
@@ -143,6 +105,6 @@ client.manager.on("nodeError", (node, error) => {
 client.on("raw", (d) => client.manager.updateVoiceState(d));
 
 //message
-client.on("messageCreate", handleMessage);
+client.on("messageCreate", (message) => handleMessage(message, client));
 
 client.login(TOKEN);
