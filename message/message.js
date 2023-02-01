@@ -91,7 +91,9 @@ async function handleMessage(message, client) {
     for (const track of res.tracks) {
       await player.queue.add(track);
     }
-    message.channel.send(`Added ${res.tracks.length} tracks in queue`);
+    message.channel.send(
+      `🎶 Đã thêm playlist\n${res.tracks.length} bài từ ${res.playlist.name}.`
+    );
     if (!player.playing && !player.paused) {
       player.play();
       let playembed = new EmbedBuilder()

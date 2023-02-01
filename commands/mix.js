@@ -17,7 +17,7 @@ module.exports = {
     player.queue.clear();
     for (const track of shuffledArray) player.queue.add(track);
     if (player.queue.size) {
-      return interaction.reply("Mixed list Music >>");
+      return interaction.reply("🔀 Đã xáo trộn thành công");
     }
     interaction.reply("No music in queue");
   },
