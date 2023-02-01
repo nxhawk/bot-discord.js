@@ -1,4 +1,4 @@
-# Tạo bot discord với discord.js và erela.js
+# Tạo bot 🤖 discord với discord.js và erela.js
 
 Bạn đã chán nản 💢 với việc nghe nhạc trên youtube mà lại bị gián đoạn bởi một đoạn quảng cáo nào đó 😞, hay khi nghe nhạc ️🎶 trên mobile phải luôn mở youtube mà không làm được việc khác trên điện thoại, hay tắt máy mà vẫn nghe được nhạc📱.
 
