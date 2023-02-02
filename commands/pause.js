@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require("discord.js");
-//1069850528160432148
+
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("pause")
@@ -7,12 +7,18 @@ module.exports = {
   async execute(client, interaction) {
     const player = client.manager.players.get(interaction.guild.id);
     if (!player)
-      return interaction.reply("I'm not playing music in this server");
+      return interaction.reply({
+        content: "`I'm not playing music in this server`",
+        ephemeral: true,
+      });
     if (player.options.voiceChannel !== interaction.member.voice.channel.id) {
-      return interaction.reply("Bot Music not here");
+      return interaction.reply({
+        content: "`Bot Music not here`",
+        ephemeral: true,
+      });
     }
-    if (!player.playing) return interaction.reply("I am already paused");
+    if (!player.playing) return interaction.reply("`I am already paused`");
     player.pause(true);
-    interaction.reply("Successfully paused the music");
+    interaction.reply("`Successfully paused the music`");
   },
 };

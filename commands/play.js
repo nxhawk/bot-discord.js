@@ -14,11 +14,14 @@ module.exports = {
 
     if (!interaction.member.voice.channel)
       return interaction.reply({
-        content: "You need to join a voice channel.",
+        content: "`You need to join a voice channel.`",
         ephemeral: true,
       });
     if (!song_name)
-      return interaction.reply("You need to give me a URL or a search term.");
+      return interaction.reply({
+        content: "`You need to give me a URL or a search term.`",
+        ephemeral: true,
+      });
 
     let res;
 

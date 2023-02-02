@@ -28,11 +28,11 @@ module.exports = {
     ),
   async execute(client, interaction) {
     interaction.reply(
-      `Bạn đã order ${interaction.options.getString(
+      `Bạn đã order \`${interaction.options.getString(
         "food"
-      )} và ${interaction.options.getString(
+      )}\` và \`${interaction.options.getString(
         "drink"
-      )}.\nVui lòng đợi trong giây lát nhà hàng đang chuẩn bị.`
+      )}\`.\nVui lòng đợi trong giây lát nhà hàng đang chuẩn bị.`
     );
   },
 };
