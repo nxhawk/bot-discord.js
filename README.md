@@ -59,6 +59,12 @@ Bài viết này sẽ nêu các chức năng cũng như cách cài đặt và s�
 > **<kbd>4.</kbd>** `!quote` returns a sentence of a certain famous person in English
 > 
 > **<kbd>5.</kbd>** `load [url playlist youtube]` bot will add the songs in this playlist to the queue (correct order). If no song is playing, bot will play the first song in the playlist      
+> **<kbd>6.</kbd>** `!top [url]` add song on top quêu
+> 
+> **<kbd>7.</kbd>** `!infor @<ID>` get information userID
+> 
+> **<kbd>8.</kbd>** `!help` show help message
+> 
 
 ### 2. Interaction
 
@@ -85,6 +91,14 @@ Bài viết này sẽ nêu các chức năng cũng như cách cài đặt và s�
 > 
 > **<kbd>11.</kbd>** `/mix` shuffle the song currently in the song queue 
 > 
+> **<kbd>12.</kbd>** `/clear` Clear all queue music 
+> 
+> **<kbd>13.</kbd>** `/server` get information of server 
+> 
+> **<kbd>14.</kbd>** `/getvolume` get volume music now 
+> 
+> **<kbd>15.</kbd>** `/setvolume` set volume music to x% 
+>
 
 ## Test bot
 
