@@ -103,7 +103,8 @@ Bài viết này sẽ nêu các chức năng cũng như cách cài đặt và s�
  * Người dùng có thể thêm database (mongoseDB, SQL,...) để quản lí việc thêm, xóa bài hát, tạo playlist cho từng cá nhân cụ thể.
  * Deploy bot lên một server nào đó.
  * Thêm các API, chức năng khác như lấy một bài thơ ngẫu nhiên nào đó. Có thể thêm (tạo) server để quản lí việc gọi API.   
- 
+ * Tích hợp chatGPT vào cũng khá thú vị🤔
+
 ## Test bot
 
 
