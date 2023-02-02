@@ -1,6 +1,6 @@
 # Tạo bot 🤖 discord với discord.js và erela.js
 
-Bạn đã chán nản 💢 với việc nghe nhạc trên youtube mà lại bị gián đoạn bởi một đoạn quảng cáo nào đó 😞, hay khi nghe nhạc ️🎶 trên mobile phải luôn mở youtube mà không làm được việc khác trên điện thoại, hay tắt máy mà vẫn nghe được nhạc📱.
+Bạn đã quá chán nản 💢 với việc nghe nhạc trên youtube mà lại bị gián đoạn bởi một đoạn quảng cáo nào đó 😞, hay khi nghe nhạc ️🎶 trên mobile phải luôn mở youtube mà không làm được việc khác trên điện thoại, bạn muốn tắt máy mà vẫn nghe được nhạc📱.
 
 Ngoài việc cài đặt [extension](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) cho trình duyệt hay lên premium thì việc tạo một con bot 🤖 discord cũng khá là thú vị ák😒 (đặc biệt khi ở mobile thì không dùng extension như desktop được 😞).
 
@@ -83,7 +83,7 @@ Bài viết này sẽ nêu các chức năng cũng như cách cài đặt và s�
 > 
 > **<kbd>10.</kbd>** `/list` Returns information about all songs in the song queue
 > 
-> **<kbd>11.</kbd>** `/mix` shuffle the sóng currently in the song queue 
+> **<kbd>11.</kbd>** `/mix` shuffle the song currently in the song queue 
 > 
 
 ## Test bot
