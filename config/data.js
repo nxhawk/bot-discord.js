@@ -18,6 +18,7 @@ const data = [
   },
   { message: "!infor @<ID>", description: "Get information of userID<ID>" },
   { message: "!help", description: "Show help message" },
+  { message: "!bot", description: "Call bot" },
 ];
 
 module.exports = data;

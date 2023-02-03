@@ -31,6 +31,7 @@ module.exports = {
       });
     } else {
       player.stop();
+      player.destroy();
       interaction.reply("`No music in queue`");
     }
   },

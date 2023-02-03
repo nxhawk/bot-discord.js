@@ -7,11 +7,11 @@ async function help(message, client) {
   if (msg.length > 0) {
     let dsc = "";
     for (const command of client.commands)
-      if (msg.includes(command[0]))
+      if (msg.includes(command[0]) || command[0].includes(msg))
         dsc += `\`/${command[0]}\`: ${command[1].data.description}
     `;
     data.forEach((d) => {
-      if (msg.includes(d.message))
+      if (msg.includes(d.message) || d.message.includes(msg))
         dsc += `\`${d.message}\`: ${d.description}
       `;
     });

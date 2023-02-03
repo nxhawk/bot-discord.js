@@ -34,7 +34,7 @@ async function loadFunc(message, client) {
   }
   message.channel.send(
     `🎶 Đã thêm playlist\n${res.tracks.length} bài từ ${
-      res.playlist.name ? res.playlist.name : "playlist"
+      res.playlist?.name ? res.playlist?.name : "playlist"
     }.`
   );
   if (!player.playing && !player.paused) {

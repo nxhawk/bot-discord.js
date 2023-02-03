@@ -1,4 +1,4 @@
-const { SlashCommandBuilder, EmbedBuilder } = require("discord.js");
+const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -18,6 +18,7 @@ module.exports = {
       });
     }
     player.queue.clear();
+    player.destroy();
     interaction.reply("`Queue the song is empty now`");
   },
 };

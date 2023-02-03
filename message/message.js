@@ -4,6 +4,7 @@ const fetch = (url) =>
 
 // more function
 const addTop = require("./function/addTop");
+const callBot = require("./function/bot");
 const help = require("./function/help");
 const loadFunc = require("./function/loadFunc");
 const userInfor = require("./function/userInfor");
@@ -68,6 +69,7 @@ async function handleMessage(message, client) {
   else if (msg.startsWith("!top", 0)) addTop(message, client);
   else if (msg.includes("!infor") && msg.includes("<@")) userInfor(message);
   else if (msg.startsWith("!help")) help(message, client);
+  else if (msg === "!bot") callBot(message, client);
 }
 
 module.exports = handleMessage;
