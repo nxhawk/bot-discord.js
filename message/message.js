@@ -8,6 +8,7 @@ const callBot = require("./function/bot");
 const help = require("./function/help");
 const loadFunc = require("./function/loadFunc");
 const userInfor = require("./function/userInfor");
+const girlImg = require("./function/girlImg");
 
 async function handleMessage(message, client) {
   if (message.author.bot) return;
@@ -70,6 +71,7 @@ async function handleMessage(message, client) {
   else if (msg.includes("!infor") && msg.includes("<@")) userInfor(message);
   else if (msg.startsWith("!help")) help(message, client);
   else if (msg === "!bot") callBot(message, client);
+  else if (msg === "!girl") girlImg(message);
 }
 
 module.exports = handleMessage;
