@@ -67,6 +67,8 @@ Bài viết này sẽ nêu các chức năng cũng như cách cài đặt và s�
 > 
 > **<kbd>9.</kbd>** `!bot` call bot, If you want to play music call `/clear` before 
 > 
+> **<kbd>10.</kbd>** `!girl` Show random beautiful girl image in Instagram 
+> 
 
 ### 2. Interaction
 
