@@ -19,6 +19,10 @@ const data = [
   { message: "!infor @<ID>", description: "Get information of userID<ID>" },
   { message: "!help", description: "Show help message" },
   { message: "!bot", description: "Call bot" },
+  {
+    message: "!girl",
+    description: "Show random beautiful girl image in Instagram",
+  },
 ];
 
 module.exports = data;
